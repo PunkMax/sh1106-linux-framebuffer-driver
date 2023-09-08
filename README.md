@@ -11,6 +11,7 @@
 目前只把I2C型号的驱动完成了，但SPI型号的驱动没有移植成功。
 
 将驱动代码放到 /drivers/video/fbdev/ 目录下，并在这个目录下的Kconfig和Makefile中加入sh1106的选项
+
 Kconfig：
 ```
 config FB_SH1106
